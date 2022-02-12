@@ -1,0 +1,101 @@
+
+
+api/player-list-by-team-id?team_id=60aca35ff6cd6923adf9634a  => team roster 
+
+
+
+GETapi/get-user-details?user_id=609400e6fd131f3cd452c3af  => display user image and name on top 
+
+
+
+
+
+api/player-joined-team-list?player_id=60942bdffd131f3cd452c3be  => dropdown data on the top
+
+
+api/player-joined-team-list?player_id=60942bdffd131f3cd452c3be  => bottom  my teams list
+
+
+
+ https://nodeserver.mydevfactory.com:1447/uploads/playerProfilePic/1621581106845download.png 
+
+
+
+
+
+ <select id="lang" onChange={this.change} value={this.state.value}>
+                  <option value="select">Select</option>
+                  <option value="Java">Java</option>
+                  <option value="C++">C++</option>
+               </select>
+
+
+
+           
+    // Simple POST request with a JSON body using fetch
+    const requestOptions = {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ title: 'React POST Request Example' })
+    };
+    fetch('https://reqres.in/api/posts', requestOptions)
+        .then(response => response.json())
+        .then(data => this.setState({ postId: data.id }));
+
+
+
+        
+
+        https://nodeserver.mydevfactory.com:1447/api/get-game-event-list?manager_id=609431a8fd131f3cd452c3c0&team_id=60a51abfae9b3244cc9d1eae&page=1&limit=10
+
+
+
+
+
+
+
+102|spcloud  | data { 'player_id ': '609431a8fd131f3cd452c3c0',
+102|spcloud  |   profile_image:
+102|spcloud  |    'data:image/png;base64,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' }
+102|spcloud  | fileData null
+
+
+
+
+
+
+
+
+
+102|spcloud  | data { player_id: '609431a8fd131f3cd452c3c0' }
+102|spcloud  | fileData { profile_image:
+102|spcloud  |    { name: 'unnamed.png',
+102|spcloud  |      data:
+102|spcloud  |       <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 02 00 00 00 02 00 08 06 00 00 00 f4 78 d4 fa 00 00 00 04 73 42 49 54 08 08 08 08 7c 08 64 88 00 ... >,
+102|spcloud  |      size: 69072,
+102|spcloud  |      encoding: '7bit',
+102|spcloud  |      tempFilePath: '',
+102|spcloud  |      truncated: false,
+102|spcloud  |      mimetype: 'image/png',
+102|spcloud  |      md5: 'b2d1ee652c59b35ec139bcbc70f32dd7',
+102|spcloud  |      mv: [Function: mv] } }
+102|spcloud  | data { player_id: '609431a8fd131f3cd452c3c0' }
+102|spcloud  | fileData { profile_image:
+102|spcloud  |    { name: 'unnamed.png',
+102|spcloud  |      data:
+102|spcloud  |       <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 02 00 00 00 02 00 08 06 00 00 00 f4 78 d4 fa 00 00 00 04 73 42 49 54 08 08 08 08 7c 08 64 88 00 ... >,
+102|spcloud  |      size: 69072,
+102|spcloud  |      encoding: '7bit',
+102|spcloud  |      tempFilePath: '',
+102|spcloud  |      truncated: false,
+102|spcloud  |      mimetype: 'image/png',
+102|spcloud  |      md5: 'b2d1ee652c59b35ec139bcbc70f32dd7',
+102|spcloud  |      mv: [Function: mv] } }
+102|spcloud  | uploads/playerProfilePic/1627299728544unnamed.png was deleted
+102|spcloud  | Server started at https://nodeserver.mydevfactory.com:1447/:1447
+
+
+
+
+
+https://nodeserver.mydevfactory.com:1447/uploads/team_store/1627454772197images.jpg

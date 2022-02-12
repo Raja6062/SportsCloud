@@ -1,0 +1,1109 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@media (max-width: 1200px){
+}
+
+@media (max-width: 992px) {
+}
+/* 
+@media only screen and (max-width: 360px) {
+    .dashboard-side-bar{
+        width: 54%;
+       
+    }
+    .menulist {
+        display: block;
+        position: inherit;
+        left: 0;
+        top: 108px;
+        width: 22%;
+        background: #2c2c2c;
+        z-index: 75;
+        padding: 0 10px 0 0;
+    }
+    
+    .teams-select {
+        display: grid;
+        align-items: center;
+        width: auto;
+    }
+    
+    .team-profile-img img {
+        width: 86px;
+        height: 86px;
+        
+    }
+    .team-profile-img {
+        width: 86px;
+        height: 86px;
+    }
+    .teams-select {
+    display: grid;
+    align-items: center;
+    width: auto;
+}
+    .dashboard-top-content {
+    display: block;
+    padding-top: 8px;
+}
+.dashboard-top-content-left-top {
+    display: flex;
+    justify-content: flex-start;
+        width: fit-content;
+}
+.dashboard-top-content-left-bottom {
+        width: fit-content;
+}
+.team-list-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 21px 32px;
+}
+.team-list-section {
+    width: auto;
+}
+.player-schedule-section {
+    display: block;
+}
+.record-save-section {
+    display: block;
+}
+} */
+
+@media (max-width: 1024px) 
+{
+
+    .dashboard-side-bar{
+        width: 25%;
+    }
+    .dashboard-top-content-left-top{
+        display: block;
+        width: 100%;
+    }
+    .logo{
+       text-align: center;
+    }
+    .nav-header{
+        display: block;
+        margin-top: 10px;
+    }
+    .dashboard-main-content{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .dashboard-main{
+        flex-direction: column;
+    }
+    /* .dashboard-side-bar{
+        width: 100%;
+    } */
+    .dashboard-head{
+        flex-direction: column;
+    }
+    .teams-select{
+        width: 100%;
+    }
+    .create-teams{
+        margin-left: 0;
+    }
+    .create-teams button{
+        width: 100%;
+    }
+    .create-teams{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .profile-head{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 10px;
+        width: auto;
+    }
+    .dashboard-top-content{
+        flex-direction: column;
+    }
+    .dashboard-top-content-left{
+        width: 100%;
+    }
+    .dashboard-top-content-left-top{
+        flex-direction: column;
+    }
+    .team-profile{
+        width: 100%;
+    }
+    .dublin-weather{
+        width: 100%;
+        margin-left: 0;
+        padding: 20px;
+    }
+    .dashboard-top-content-right{
+        margin-left: 0;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .dashboard-schedule-game-event{
+        flex-direction: column;
+    }
+    .dashboard-schedule-game-event-calender{
+        width: 100%;
+    }
+    .dashboard-schedule-game-event-text{
+        padding-left: 0;
+        width: 100%;
+        margin-top: 15px;
+    }
+    .team-list-section{
+        padding: 15px 10px;
+    }
+    .team-list-box-text h6{
+        font-size: 10px;
+    }
+    .team-list-box-img{
+        width: 40px;
+    }
+    .team-list-box-img img{
+        width: 40px;
+        height: 40px;
+        border-width: 2px;
+    }
+    .team-list-box-text h4{
+        font-size: 14px;
+        padding-right: 68px;
+    }
+    .team-list-box-text h5{
+        font-size: 12px;
+    }
+    .dashboard-schedule-section{
+        margin-top: 20px;
+    }
+    .team-list-head{
+        padding: 15px;
+    }
+    .team-list-head h2{
+        font-size: 16px;
+    }
+    .team-list-head a{
+        font-size: 12px;
+        height: 35px;
+        line-height: 35px;
+    }
+    .dashboard-schedule-head h2{
+        font-size: 16px;
+    }
+    .dashboard-schedule-head a{
+        font-size: 13px;
+        padding: 0 10px;
+    }
+    .dashboard-schedule-head{
+        padding: 15px;
+    }
+    .options-radio{
+        margin-right: 30px;
+    }
+    .dashboard-schedule-main-box{
+        padding: 15px;
+    }
+    .dashboard-schedule-game-event-text h2{
+        font-size: 16px;
+    }
+    .dashboard-schedule-game-event-text ul li a{
+        font-size: 12px;
+    }
+    .reminder-btn{
+        width: 100%;
+        height: 50px;
+        font-size: 12px;
+    }
+    .options-radio{
+        font-size: 14px;
+        padding-left: 30px;
+    }
+     .options-radio .checkmark:after {
+        left: 2px;
+        top: 2px;
+        width: 12px;
+        height: 12px;
+    }
+    .checkmark{
+        width: 20px;
+        height: 20px;
+    }
+    .record-standing_section{
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    .record-standing-box{
+        width: 100%;
+        margin-top: 15px;
+    }
+    .record-standing-head{
+        padding: 15px;
+        font-size: 16px;
+    }
+    .record-standing-box-inner{
+        padding: 15px;
+    }
+    .record-main-top-left h4{
+        font-size: 16px;
+    }
+    .record-main-top-left span{
+        font-size: 12px;
+    }
+    .record-main-top-right button {
+        width: 85px;
+        height: 30px;
+        font-weight: normal;
+        font-size: 12px;
+    }
+    .standing-table{
+        overflow: auto;
+        
+    }
+    .standing-table table{
+        width: 500px;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .footer .copy-right{
+        text-align: center;
+        font-size: 14px;
+    }
+    .social-icon-footer{
+        margin-top: 15px;
+    }
+    
+    .nav-header{
+        background: #000;
+        padding: 8px 15px;
+        
+    }
+    .nav-header button{
+        width: 40px;
+        height: 35px;
+        border: 1px solid #fff;
+        background: none;
+        outline: 0;
+        border-radius: 4px;
+        
+    }
+    .nav-header button span{
+        display: block;
+        width: 100%;
+        height: 2px;
+        margin-bottom: 5px;
+        background: #fff;
+    }
+    .nav-header button span:last-child{
+        margin-bottom: 0;
+    }
+    .menulist{
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 108px;
+        width: 100%;
+        background: #2c2c2c;
+        z-index: 99;
+        padding: 0 10px 0 0;
+    }
+    .menulist ul li a{
+        padding-top: 14px;
+        padding-bottom: 14px;
+    }
+    .menulist ul li{
+        margin-bottom: 5px;
+    }
+    .invoice-due{
+        width: 100%;
+        margin-left: 0;
+        padding: 25px;
+        margin-top: 20px;
+    }
+    .dashboard-top-content-left-bottom{
+        margin-top: 20px;
+    }
+    .dublin-weather-bottom {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+    .dublin-weather-bottom-boxes{
+        width: 48%;
+        margin-bottom: 10px;
+    }
+    
+    .player-schedule-section{
+        flex-direction: column;
+        margin-top: 5px;
+    }
+    .record-standing-box{
+        padding: 20px;
+    }
+    .record-standing-head{
+        padding: 0;
+    }
+    .record-standing-box-inner{
+        padding: 0;
+    }
+    .dashboard-schedule-section{
+        width: 100%;
+    }
+    .record-save-section{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .record-save-box{
+        width: 100%;
+        padding: 15px;
+    }
+    .enter-result{
+        margin-top: 30px;
+    }
+    .record-main-top h4{
+        font-size: 18px;
+    }
+    .record-main-top span{
+        font-size: 16px;
+    }
+    .save-travel{
+        width: 100%;
+        margin-top: 20px;
+        padding: 15px;
+    }
+    .myteam-teamsnap-section{
+        flex-direction: column;
+    }
+    .teamsnap-section{
+        width: 100%;
+        margin-top: 20px;
+        padding: 15px;
+    }
+    .teamsnap-section-head{
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 0px;
+        padding-bottom: 15px;
+    }
+    .teamsnap-section-head h2{
+        font-size: 15px;
+    }
+    .teamsnap-section-head a {
+    font-size: 12px;
+    height: 35px;
+    line-height: 35px;
+}
+    .teamsnap-section-main{
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 15px;
+    }
+    .dublin-weather h2{
+        font-size: 16px;
+    }
+    .dublin-weather-bottom-boxes h3{
+        font-size: 16px;
+    }
+    .invoice-due h2{
+        font-size: 18px;
+    }
+    .team-list-box{
+        padding: 8px 10px;
+    }
+    .team-list-box-text a{
+        font-size: 13px;
+    }
+    .save-on-travel h4{
+        font-size: 16px;
+    }
+    .record-save-box-inner{
+        padding: 20px 10px;
+    }
+    .save-on-travel p{
+        font-size: 14px;
+    }
+    .save-on-travel a{
+        font-size: 14px;
+        width: 200px;
+    }
+    .login-account{
+        margin-left: 0;
+    }
+    .my-order-section a{
+        margin: 0 auto;
+    }
+    .team-shop-list-box{
+        padding: 20px 15px;
+    }
+    .liability-box{
+        padding: 15px;
+        width: 100%;
+    }
+    .team-payment{
+        overflow: auto;
+    }
+    .team-payment table{
+        width: 1030px;
+    }
+    .team-roaser-head{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .team-roaser-head-right{
+        flex-direction: column;
+        justify-content: center;
+        display: flex;
+    }
+    .team-roaser-head .team-roaser-head-right select{
+        width: 100%;
+    }
+    .team-roaser-head-right button.team-roaser-head-btn{
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    .team-roaster-table-head{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 15px;
+    }
+    .player-info-head{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .player-info-head-right{
+        text-align: center;
+    }
+    .player-info-head .player-info-head-right button.edit-btn{
+        margin-bottom: 10px;
+    }
+    .update-team-photo{
+
+        height: 15px;
+        
+    } 
+} 
+
+ @media (min-width:767px)and (max-width:1024px){
+
+
+    .menulist {
+        display: contents;
+        position: relative;
+        left: 0;
+        top: 108px;
+        width: 100%;
+        background: #2c2c2c;
+        z-index: 99;
+        padding: 0 10px 0 0;
+    }
+    .teams-select {
+        display: grid;
+        align-items: center;
+        width: auto;
+    }
+    .dashboard-main {
+        display: flex;
+        align-content: center;
+        align-items: stretch;
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+    .dashboard-main-content {
+        padding: 30px 24px 0;
+        width: 100%;
+        background: #2C2C2C;
+        
+    }
+    .teams-select {
+        display: contents;
+        align-items: center;
+        width: auto;
+    }
+    .dashboard-top-content-left-top {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        width: auto;
+        height: 323px;
+    }
+    .team-profile-img {
+        width: 74px;
+        height: 74px;
+        border-radius: 50%;
+        margin-top: -32px;
+        margin: 0 auto;
+        overflow: hidden;
+        background: #F45648;
+    }
+    .team-profile-img img {
+        width: 74px;
+        height: 74px;
+        object-fit: cover;
+        border: 5px solid #fff;
+        border-radius: 50%;
+    }
+    .update-team-photo {
+        background: #EC3525;
+        box-shadow: 0px 4px 7px 3px rgb(0 0 0 / 5%);
+        border-radius: 25px;
+        height: 50px;
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 10px;
+        color: #fff;
+        text-align: center;
+        line-height: 50px;
+        margin-top: -3px;
+        position: relative;
+        width: 150px;
+        margin-left: -18px;
+    }
+    .team-profile-name {
+        font-weight: 500;
+        font-size: 17px;
+        color: #FFFFFF;
+        text-align: center;
+        margin-top: -15px;
+    }
+    .team-profile {
+        width: 40%;
+        height: 346px;
+        background: #595959;
+        border-radius: 20px;
+        padding: 12px 20px 61px;
+    }
+    .invoice-due .create-new-team-text button {
+        background: #EC3525;
+        box-shadow: 0px 4px 7px 3px rgb(0 0 0 / 5%);
+        border-radius: 25px;
+        height: 50px;
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 14px;
+        color: #fff;
+        text-align: center;
+        margin-top: 2px;
+        margin-left: -24px;
+        position: relative;
+        border: none;
+        width: 158px;
+        outline: 0;
+    
+    }
+    
+
+    
+    
+    .invoice-due {
+        width: 55%;
+        margin-left: 5%;
+        background: #484848;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 0px;
+        height: 107%;
+    }
+    .teams-select select {
+        width: 203px;
+        background: #484848;
+        box-shadow: 0px 4px 3px rgb(0 0 0 / 10%);
+        border-radius: 30px;
+        height: 60px;
+        border: none;
+        -webkit-appearance: none;
+        appearance: none;
+        outline: 0;
+        background: #484848 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAKCAYAAABSfLWiAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MzQ0MzI1RjBBNDIwMTFFQkJCRkVEODMzMTc2N0NBQ0YiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MzQ0MzI1RjFBNDIwMTFFQkJCRkVEODMzMTc2N0NBQ0YiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDozNDQzMjVFRUE0MjAxMUVCQkJGRUQ4MzMxNzY3Q0FDRiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozNDQzMjVFRkE0MjAxMUVCQkJGRUQ4MzMxNzY3Q0FDRiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PsQRv78AAACXSURBVHjaYpg/f77AmjVrAhhIBMj6mHh4eAyYmJjWA0E9KQbw8/PvB+kDsZlCQ0MP/P//vxGIG4gxCGYAkGkA1JMIBB8YYZJr165tYGRkrAfihsDAwEZiDAgODl4AEmdEVoTPIFwGYBiCyyB8BmA1BN2gDx8+TMRnAE5DkA0CMh8AsQIuA/AagmwQPgOIAsBoVyCkBiDAAGedbIrWA263AAAAAElFTkSuQmCC) no-repeat 93% center;
+        font-weight: 500;
+        font-size: 16px;
+        color: #fff;
+        padding: 0 25px;
+        margin-right: 10px;
+    }
+    .dashboard-top-content {
+        display: flex;
+        padding-top: 8px;
+        flex-direction: row;
+    }
+    .dashboard-top-content-right {
+        margin-top: 0;
+    }
+    .player-schedule-section {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        flex-direction: row;
+    }
+    .record-save-section {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        flex-direction: row;
+    }
+    .standing-tb-section {
+        background: #484848;
+        padding: 30px 25px 30px;
+        border-radius: 20px;
+        overflow: hidden;
+        margin-top: -19px;
+    }
+    .dashboard-schedule-head a {
+        background: #EC3525;
+        border-radius: 25px;
+        padding: 0px 7px;
+        height: 45px;
+        font-weight: 400;
+        font-size: .8rem;
+        color: #fff;
+        text-align: center;
+        line-height: 45px;
+        text-decoration: none;
+        width: 195px;
+    }
+    .dashboard-schedule-head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 13px;
+    }
+    .myteam-teamsnap-section {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-content: stretch;
+    }
+    .teamsnap-section-head a {
+        background: #EC3525;
+        border-radius: 25px;
+        padding: 0 34px;
+        height: 45px;
+        font-weight: 400;
+        font-size: 16px;
+        color: #fff;
+        text-align: center;
+        line-height: 22px !important;
+        text-decoration: none;
+    }
+    .dashboard-schedule-head a {
+        background: #EC3525;
+        border-radius: 25px;
+        padding: 0 25px;
+        height: 45px;
+        font-weight: 400;
+        font-size: 16px;
+        color: #fff;
+        text-align: center;
+        line-height: 22px !important;
+        text-decoration: none;
+        margin-left: 5px;
+    }
+    
+    
+    
+
+
+
+
+    
+} 
+@media(min-width:550px) and (max-width:767px) {
+    .dashboard-main {
+        display: flex;
+        align-content: center;
+        align-items: stretch;
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+    .teams-select {
+        display: flex;
+        align-items: center;
+        width: auto;
+        flex-direction: column;
+    }
+    .streming-head-right {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .logo {
+        padding: 0 15px;
+        width: 26vh;
+    }
+    .menulist {
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 108px;
+        width: 24%;
+        background: #2c2c2c;
+        z-index: 99;
+        padding: 0 10px 0 0;
+    }
+    .menulist ul {
+        margin: 0;
+        padding: 0;
+        margin-left: -17px;
+    }
+    
+    .dashboard-side-bar {
+        width: 62%;
+        background: #2C2C2C;
+        padding: 0px 0px 20px;
+    }
+    .invoice-due {
+        width: fit-content;
+        margin-left: 5%;
+        background: #484848;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .team-profile {
+        width: fit-content;
+        background: #595959;
+       
+        border-radius: 20px;
+        padding: 44px 20px 30px;
+    }
+    .dashboard-top-content-right {
+        width: fit-content;
+        margin-left: 2.5%;
+        background: #484848;
+        box-shadow: 0px 4px 7px 3px rgb(0 0 0 / 5%);
+        border-radius: 20px;
+    }
+    .team-list-section {
+        padding: 0px 15px 22px;
+        width: fit-content;
+    }
+    
+    .record-standing-box {
+        background: #484848;
+        border-radius: 20px;
+        width: 80%;
+        padding: 30px 25px 30px;
+    }
+    .dashboard-schedule-section {
+        background: #484848;
+        border-radius: 20px;
+        width: fit-content;
+    }
+    .dashboard-schedule-head h2 {
+        font-weight: 500;
+        font-size: 20px;
+        color: #fff;
+        margin: 0;
+        padding: 0;
+    }
+    .dashboard-schedule-head a {
+        background: #EC3525;
+        border-radius: 25px;
+        padding: 0 25px;
+        height: 45px;
+        font-weight: 400;
+        font-size: 13px !important;
+        color: #fff;
+        text-align: center;
+        line-height: 45px;
+        text-decoration: none;
+        margin-left: 5px !important;
+    }
+    .dashboard-schedule-head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 16px 26px;
+    }
+    .record-save-box {
+        background: #484848;
+        border-radius: 20px;
+        width: fit-content;
+        padding: 30px 25px 30px;
+    }
+    
+    .save-travel {
+        background: #484848;
+        border-radius: 20px;
+        width: 45.5%;
+        width: 45.5%;
+        padding: 30px 25px 30px;
+        margin-top: 0;
+    }
+    .prefarance-box.player-info ul.nav-tabs {
+        padding: 30px 20px;
+        width: 154px;
+    }
+    .team-shop-product-box {
+        width: 49.33%;
+        background: #595959;
+        border-radius: 20px;
+        padding: 20px;
+        margin-bottom: 1.5%;
+    }
+    .record-save-section {
+        display: flex;
+        margin-top: 30px;
+        flex-direction: column;
+    }
+    .myteam-teamsnap-section {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-content: stretch;
+    }
+    .teamsnap-section-head a {
+        background: #EC3525;
+        border-radius: 25px;
+        padding: 0 34px;
+        height: 45px;
+        font-weight: 400;
+        font-size: 16px;
+        color: #fff;
+        text-align: center;
+        line-height: 22px !important;
+        text-decoration: none;
+    }
+   
+    
+
+}
+
+@media(min-width:350px) and (max-width:550px ){
+    .dashboard-main {
+        display: flex;
+        align-content: center;
+        align-items: stretch;
+        flex-wrap: nowrap;
+        flex-direction: row;
+            width: fit-content;
+      
+    }
+    .teams-select {
+        display: flex;
+        align-items: center;
+        width: auto;
+        flex-direction: column;
+    }
+    .logo {
+        padding: 0 15px;
+        width: 147px;
+    }
+    .menulist {
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 108px;
+        width: 18%;
+        background: #2c2c2c;
+        z-index: 99;
+        padding: 0 10px 0 0;
+    }
+    .menulist ul {
+        margin: 0;
+        padding: 0;
+        width: 143px;
+    }
+    .dashboard-side-bar {
+        width: 32%;
+        background: #2C2C2C;
+        padding: 0px 0px 20px;
+        
+    }
+    .invoice-due {
+        width: 19%;
+        margin-left: 5%;
+        background: #484848;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-left: 0;
+    }
+    .team-profile {
+        width: 196%;
+        background: #595959;
+        border-radius: 20px;
+        padding: 44px 20px 30px;
+        margin-left: 62px;
+    }
+    .dashboard-top-content-left-top {
+        display: flex;
+        justify-content: space-between;
+        margin-left: -12px;
+        width: 311%;
+    }
+    .dashboard-top-content-right {
+        width: 91.5% !important;
+        margin-left: 2.5%;
+        background: #484848;
+        box-shadow: 0px 4px 7px 3px rgb(0 0 0 / 5%);
+        border-radius: 20px;
+    }
+    .team-list-section {
+        padding: 0px 15px 22px;
+        width: fit-content;
+    }
+    
+    .record-standing-box {
+        background: #484848;
+        border-radius: 20px;
+        width: 80%;
+        padding: 30px 25px 30px;
+        display: contents;
+    }
+    .dashboard-schedule-section {
+        background: #484848;
+        border-radius: 20px;
+        width: fit-content;
+        display: inline-table;
+    }
+    .dashboard-schedule-head h2 {
+        font-weight: 500;
+        font-size: 20px;
+        color: #fff;
+        margin: 0;
+        padding: 0;
+    }
+    .dashboard-schedule-head a {
+        background: #EC3525;
+        border-radius: 25px;
+        padding: 0 25px;
+        height: 45px;
+        font-weight: 400;
+        font-size: 13px;
+        color: #fff;
+        text-align: center;
+        line-height: 45px;
+        text-decoration: none;
+        width: 212px;
+        margin-left: 10px;
+    }
+    .dashboard-schedule-head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 16px 26px;
+    }
+    .record-save-box {
+        background: #484848;
+        border-radius: 20px;
+        width: fit-content;
+        padding: 30px 25px 30px;
+        display: contents;
+    }
+    .save-travel {
+        background: #484848;
+        border-radius: 20px;
+        width: fit-content;
+        padding: 30px 25px 30px;
+    }
+    .team-profile-img {
+        width: 74px;
+        height: 74px;
+        border-radius: 50%;
+        margin: 0 auto;
+        overflow: hidden;
+        background: #F45648;
+    }
+    .team-profile-img img {
+        width: 74px;
+        height: 74px;
+        object-fit: cover;
+        border: 5px solid #fff;
+        border-radius: 50%;
+    }
+    .standing-tb-section {
+        background: #484848;
+        padding: 30px 25px 30px;
+        border-radius: 20px;
+        overflow: hidden;
+        display: inline-block;
+        width: 220%;
+    }
+    .dashboard-top-content-left-bottom {
+       
+        width: 174%;
+        margin-left: 11px;
+    }
+    .menulist ul li a {
+        font-size: 15px;
+        text-decoration: none;
+        color: #E1E1E1;
+        display: block;
+        position: relative;
+        padding: 22px 15px 22px 69px;
+        border-radius: 0px 35px 35px 0;
+        transition: .5s;
+    }
+    .menulist ul li {
+        list-style-type: none;
+        margin: 0px 0 10px -14px;
+        padding: 0;
+    }
+    .prefarance-box.player-info ul.nav-tabs {
+        width: 157px;
+    }
+    .team-shop-list-main {
+        margin-top: 35px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: column;
+        /* align-items: center; */
+        width: 320%;
+    }
+    .save-travel {
+        background: #484848;
+        border-radius: 20px;
+        width: 100.5% !important;
+        padding: 30px 25px 30px;
+    }
+    .teamsnap-section {
+        background: #484848;
+        border-radius: 20px;
+        width: 101.5% !important;
+    }
+    .teamsnap-section-head a {
+        background: #EC3525;
+        border-radius: 25px;
+        padding: 0 10px !important;
+        height: 45px;
+        font-weight: 400;
+        font-size: 16px;
+        color: #fff;
+        text-align: center;
+        line-height: 45px;
+        text-decoration: none;
+    }
+    .teamsnap-section-head a {
+        background: #EC3525;
+        border-radius: 25px;
+        padding: 0 25px;
+        height: 45px;
+        font-weight: 400;
+        font-size: 16px;
+        color: #fff;
+        text-align: center;
+        line-height: 25px !important;
+        text-decoration: none;
+    }
+    .dashboard-side-bar {
+        width: 31% !important;
+        background: #2C2C2C;
+        padding: 0px 0px 20px;
+    }
+
+}
